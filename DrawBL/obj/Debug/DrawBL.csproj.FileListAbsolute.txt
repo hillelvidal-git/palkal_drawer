@@ -1,0 +1,71 @@
+C:\Users\HILLEL\Documents\Visual Studio 2010\Projects\BedekDraw\DrawBL\bin\Debug\DrawBL.dll.config
+C:\Users\HILLEL\Documents\Visual Studio 2010\Projects\BedekDraw\DrawBL\bin\Debug\DrawBL.dll
+C:\Users\HILLEL\Documents\Visual Studio 2010\Projects\BedekDraw\DrawBL\bin\Debug\DrawBL.pdb
+C:\Users\HILLEL\Documents\Visual Studio 2010\Projects\BedekDraw\DrawBL\bin\Debug\AcDbMgd.dll
+C:\Users\HILLEL\Documents\Visual Studio 2010\Projects\BedekDraw\DrawBL\bin\Debug\AcMgd.dll
+C:\Users\HILLEL\Documents\Visual Studio 2010\Projects\BedekDraw\DrawBL\bin\Debug\AdWindows.dll
+C:\Users\HILLEL\Documents\Visual Studio 2010\Projects\BedekDraw\DrawBL\bin\Debug\AcTcMgd.dll
+C:\Users\HILLEL\Documents\Visual Studio 2010\Projects\BedekDraw\DrawBL\bin\Debug\AcCui.dll
+C:\Users\HILLEL\Documents\Visual Studio 2010\Projects\BedekDraw\DrawBL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\HILLEL\Documents\Visual Studio 2010\Projects\BedekDraw\DrawBL\obj\Debug\ResGen.read.1.tlog
+C:\Users\HILLEL\Documents\Visual Studio 2010\Projects\BedekDraw\DrawBL\obj\Debug\ResGen.write.1.tlog
+C:\Users\HILLEL\Documents\Visual Studio 2010\Projects\BedekDraw\DrawBL\obj\Debug\DrawBL.dll
+C:\Users\HILLEL\Documents\Visual Studio 2010\Projects\BedekDraw\DrawBL\obj\Debug\DrawBL.pdb
+C:\Users\HILLEL\Documents\Visual Studio 2010\Projects\BedekDraw\DrawBL\obj\Debug\DrawBL.AddToDbForm.resources
+C:\Users\HILLEL\documents\visual studio 2010\Projects\BedekDraw\DrawBL\obj\Debug\DrawBL.levels.resources
+C:\Users\HILLEL\Documents\תכנות\BedekDraw\DrawBL\bin\Debug\DrawBL.dll.config
+C:\Users\HILLEL\Documents\תכנות\BedekDraw\DrawBL\bin\Debug\DrawBL.dll
+C:\Users\HILLEL\Documents\תכנות\BedekDraw\DrawBL\bin\Debug\DrawBL.pdb
+C:\Users\HILLEL\Documents\תכנות\BedekDraw\DrawBL\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\HILLEL\Documents\תכנות\BedekDraw\DrawBL\obj\Debug\DrawBL.AddToDbForm.resources
+C:\Users\HILLEL\Documents\תכנות\BedekDraw\DrawBL\obj\Debug\DrawBL.ProgressForm.resources
+C:\Users\HILLEL\Documents\תכנות\BedekDraw\DrawBL\obj\Debug\DrawBL.Properties.Resources.resources
+C:\Users\HILLEL\Documents\תכנות\BedekDraw\DrawBL\obj\Debug\DrawBL.UpdateFromDwgForm.resources
+C:\Users\HILLEL\Documents\תכנות\BedekDraw\DrawBL\obj\Debug\DrawBL.WhatsNewForm.resources
+C:\Users\HILLEL\Documents\תכנות\BedekDraw\DrawBL\obj\Debug\DrawBL.dll
+C:\Users\HILLEL\Documents\תכנות\BedekDraw\DrawBL\obj\Debug\DrawBL.pdb
+C:\Users\HILLEL\Dropbox\תכנות\PalkalDrawer\DrawBL\bin\Debug\DrawBL.dll.config
+C:\Users\HILLEL\Dropbox\תכנות\PalkalDrawer\DrawBL\bin\Debug\DrawBL.dll
+C:\Users\HILLEL\Dropbox\תכנות\PalkalDrawer\DrawBL\bin\Debug\DrawBL.pdb
+C:\Users\HILLEL\Dropbox\תכנות\PalkalDrawer\DrawBL\obj\Debug\LogForm.LogForm.resources
+C:\Users\HILLEL\Dropbox\תכנות\PalkalDrawer\DrawBL\obj\Debug\DrawBL.MailReportForm.resources
+C:\Users\HILLEL\Dropbox\תכנות\PalkalDrawer\DrawBL\obj\Debug\DrawBL.Properties.Resources.resources
+C:\Users\HILLEL\Dropbox\תכנות\PalkalDrawer\DrawBL\obj\Debug\DrawBL.dll
+C:\Users\HILLEL\Dropbox\תכנות\PalkalDrawer\DrawBL\obj\Debug\DrawBL.pdb
+C:\Users\HILLEL\Dropbox\תכנות\PalkalDrawer\DrawBL\obj\Debug\DrawBL.csproj.GenerateResource.Cache
+C:\Users\Hillel\Documents\Visual Studio 2012\Projects\PalkalDrawer\DrawBL\obj\Debug\DrawBL.csprojResolveAssemblyReference.cache
+C:\Users\Hillel\Documents\Visual Studio 2012\Projects\PalkalDrawer\DrawBL\obj\Debug\LogForm.LogForm.resources
+C:\Users\Hillel\Documents\Visual Studio 2012\Projects\PalkalDrawer\DrawBL\obj\Debug\DrawBL.MailReportForm.resources
+C:\Users\Hillel\Documents\Visual Studio 2012\Projects\PalkalDrawer\DrawBL\obj\Debug\DrawBL.Properties.Resources.resources
+C:\Users\Hillel\Documents\Visual Studio 2012\Projects\PalkalDrawer\DrawBL\obj\Debug\DrawBL.csproj.GenerateResource.Cache
+C:\Users\Hillel\Documents\Visual Studio 2012\Projects\PalkalDrawer\DrawBL\obj\Debug\DrawBL.dll
+C:\Users\Hillel\Documents\Visual Studio 2012\Projects\PalkalDrawer\DrawBL\obj\Debug\DrawBL.pdb
+C:\Users\Hillel\Documents\Visual Studio 2012\Projects\NewPalkalDrawer\DrawBL\bin\Debug\DrawBL.dll.config
+C:\Users\Hillel\Documents\Visual Studio 2012\Projects\NewPalkalDrawer\DrawBL\bin\Debug\DrawBL.dll
+C:\Users\Hillel\Documents\Visual Studio 2012\Projects\NewPalkalDrawer\DrawBL\bin\Debug\DrawBL.pdb
+C:\Users\Hillel\Documents\Visual Studio 2012\Projects\NewPalkalDrawer\DrawBL\bin\Debug\AcCoreMgd.dll
+C:\Users\Hillel\Documents\Visual Studio 2012\Projects\NewPalkalDrawer\DrawBL\bin\Debug\AcCui.dll
+C:\Users\Hillel\Documents\Visual Studio 2012\Projects\NewPalkalDrawer\DrawBL\bin\Debug\AcDbMgd.dll
+C:\Users\Hillel\Documents\Visual Studio 2012\Projects\NewPalkalDrawer\DrawBL\bin\Debug\AcMgd.dll
+C:\Users\Hillel\Documents\Visual Studio 2012\Projects\NewPalkalDrawer\DrawBL\bin\Debug\AdWindows.dll
+C:\Users\Hillel\Documents\Visual Studio 2012\Projects\NewPalkalDrawer\DrawBL\bin\Debug\AcTcMgd.dll
+C:\Users\Hillel\Documents\Visual Studio 2012\Projects\NewPalkalDrawer\DrawBL\obj\Debug\LogForm.LogForm.resources
+C:\Users\Hillel\Documents\Visual Studio 2012\Projects\NewPalkalDrawer\DrawBL\obj\Debug\DrawBL.MailReportForm.resources
+C:\Users\Hillel\Documents\Visual Studio 2012\Projects\NewPalkalDrawer\DrawBL\obj\Debug\DrawBL.Properties.Resources.resources
+C:\Users\Hillel\Documents\Visual Studio 2012\Projects\NewPalkalDrawer\DrawBL\obj\Debug\DrawBL.csproj.GenerateResource.Cache
+C:\Users\Hillel\Documents\Visual Studio 2012\Projects\NewPalkalDrawer\DrawBL\obj\Debug\DrawBL.dll
+C:\Users\Hillel\Documents\Visual Studio 2012\Projects\NewPalkalDrawer\DrawBL\obj\Debug\DrawBL.pdb
+C:\Users\Hillel\documents\visual studio 2012\Projects\NewPalkalDrawer\DrawBL\bin\Debug\AcDx.dll
+C:\Users\Hillel\documents\visual studio 2012\Projects\NewPalkalDrawer\DrawBL\bin\Debug\AcDxPublishUi.dll
+C:\Users\Hillel\documents\visual studio 2012\Projects\NewPalkalDrawer\DrawBL\bin\Debug\AcWelcomeScreen.dll
+C:\Users\Hillel\documents\visual studio 2012\Projects\NewPalkalDrawer\DrawBL\bin\Debug\AcMr.dll
+C:\Users\Hillel\documents\visual studio 2012\Projects\NewPalkalDrawer\DrawBL\bin\Debug\AcWindows.dll
+C:\Users\Hillel\documents\visual studio 2012\Projects\NewPalkalDrawer\DrawBL\bin\Debug\ManagedMC3.dll
+C:\Users\Hillel\documents\visual studio 2012\Projects\NewPalkalDrawer\DrawBL\bin\Debug\Autodesk.AutoCAD.Interop.Common.dll
+C:\Users\Hillel\documents\visual studio 2012\Projects\NewPalkalDrawer\DrawBL\bin\Debug\en-US\acdbmgd.resources.dll
+C:\Users\Hillel\documents\visual studio 2012\Projects\NewPalkalDrawer\DrawBL\bin\Debug\en-US\AcDx.resources.dll
+C:\Users\Hillel\documents\visual studio 2012\Projects\NewPalkalDrawer\DrawBL\bin\Debug\en-US\AcDxPublishUi.resources.dll
+C:\Users\Hillel\documents\visual studio 2012\Projects\NewPalkalDrawer\DrawBL\bin\Debug\en-US\AdWindows.resources.dll
+C:\Users\Hillel\documents\visual studio 2012\Projects\NewPalkalDrawer\DrawBL\bin\Debug\en-US\AcWelcomeScreen.resources.dll
+C:\Users\Hillel\documents\visual studio 2012\Projects\NewPalkalDrawer\DrawBL\bin\Debug\en-US\AcMr.resources.dll
+C:\Users\Hillel\documents\visual studio 2012\Projects\NewPalkalDrawer\DrawBL\bin\Debug\en-US\AcWindows.resources.dll

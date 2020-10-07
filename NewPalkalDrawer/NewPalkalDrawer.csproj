@@ -1,0 +1,302 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{3E499124-97B3-4995-9072-D98F540CE23E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>NewPalkalDrawer</RootNamespace>
+    <AssemblyName>NewPalkalDrawer</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AcCoreMgd, Version=19.1.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\ObjectARX\2014\inc\AcCoreMgd.dll</HintPath>
+    </Reference>
+    <Reference Include="AcCui, Version=19.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\ObjectARX\2014\inc\AcCui.dll</HintPath>
+    </Reference>
+    <Reference Include="AcDbMgd, Version=19.1.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\ObjectARX\2014\inc\AcDbMgd.dll</HintPath>
+    </Reference>
+    <Reference Include="AcMgd, Version=19.1.0.0, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\..\..\..\Program Files\Autodesk\ObjectARX\2014\inc\AcMgd.dll</HintPath>
+    </Reference>
+    <Reference Include="Autodesk.AutoCAD.Interop.Common, Version=19.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Autodesk.AutoCAD.Interop, Version=19.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <Private>False</Private>
+    </Reference>
+    <!--ACA References Begin-->
+    <!--ACA Refences End-->
+    <!--AME Referebces Begin-->
+    <!--AME Reference End-->
+    <Reference Include="BedekTreeAdapter">
+      <HintPath>..\..\PalkalDrawer\BedekDraw\bin\Debug\BedekTreeAdapter.dll</HintPath>
+    </Reference>
+    <Reference Include="DrawBL">
+      <HintPath>..\DrawBL\bin\Debug\DrawBL.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Service References\BedekManageWebService\manageservice.wsdl" />
+    <None Include="Service References\BedekSurveyWebService\NewPalkalDrawer.BedekSurveyWebService.ArrayOfAnyType.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\BedekSurveyWebService\NewPalkalDrawer.BedekSurveyWebService.ArrayOfDouble.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\BedekSurveyWebService\NewPalkalDrawer.BedekSurveyWebService.ArrayOfInt.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\BedekSurveyWebService\surveyservice.wsdl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddToDbForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddToDbForm.designer.cs">
+      <DependentUpon>AddToDbForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CommandsText.cs" />
+    <Compile Include="FishPoints.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FishPoints.designer.cs">
+      <DependentUpon>FishPoints.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ImportPointsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ImportPointsForm.designer.cs">
+      <DependentUpon>ImportPointsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertionSettings.cs" />
+    <Compile Include="InsertionSettings.designer.cs">
+      <DependentUpon>InsertionSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertPointsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertPointsForm.designer.cs">
+      <DependentUpon>InsertPointsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="myCommands.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>myCommands.resx</DependentUpon>
+    </Compile>
+    <Compile Include="myPlugin.cs" />
+    <Compile Include="myCommands.cs" />
+    <Compile Include="PalkalMenu.cs" />
+    <Compile Include="PointRules.cs" />
+    <Compile Include="PointsMenu.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReportForm.designer.cs">
+      <DependentUpon>ReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RotateLevelForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RotateLevelForm.designer.cs">
+      <DependentUpon>RotateLevelForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SelectPtsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SelectPtsForm.designer.cs">
+      <DependentUpon>SelectPtsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\BedekManageWebService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="Service References\BedekSurveyWebService\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="SyncWizard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SyncWizard.designer.cs">
+      <DependentUpon>SyncWizard.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AddToDbForm.resx">
+      <DependentUpon>AddToDbForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FishPoints.resx">
+      <DependentUpon>FishPoints.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImportPointsForm.resx">
+      <DependentUpon>ImportPointsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertPointsForm.resx">
+      <DependentUpon>InsertPointsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="myCommands.resx">
+      <DependentUpon>myCommands.cs</DependentUpon>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>myCommands.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportForm.resx">
+      <DependentUpon>ReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RotateLevelForm.resx">
+      <DependentUpon>RotateLevelForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SelectPtsForm.resx">
+      <DependentUpon>SelectPtsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SyncWizard.resx">
+      <DependentUpon>SyncWizard.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\BedekManageWebService\" />
+    <WCFMetadataStorage Include="Service References\BedekSurveyWebService\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BedekSurveyWebService\surveyservice.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BedekSurveyWebService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BedekSurveyWebService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BedekSurveyWebService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BedekManageWebService\manageservice.disco" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BedekManageWebService\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BedekManageWebService\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\BedekManageWebService\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

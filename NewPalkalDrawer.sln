@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewPalkalDrawer", "NewPalkalDrawer\NewPalkalDrawer.csproj", "{3E499124-97B3-4995-9072-D98F540CE23E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DrawBL", "DrawBL\DrawBL.csproj", "{98DCA034-F639-4D4F-BE25-D73A2E52C1E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E499124-97B3-4995-9072-D98F540CE23E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E499124-97B3-4995-9072-D98F540CE23E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E499124-97B3-4995-9072-D98F540CE23E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E499124-97B3-4995-9072-D98F540CE23E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98DCA034-F639-4D4F-BE25-D73A2E52C1E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98DCA034-F639-4D4F-BE25-D73A2E52C1E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98DCA034-F639-4D4F-BE25-D73A2E52C1E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98DCA034-F639-4D4F-BE25-D73A2E52C1E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
